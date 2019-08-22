@@ -1,0 +1,267 @@
+.footer-wrapper[data-v-1a93b6c8] {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  min-width: 1320px;
+}
+.footer-wrapper .copyright[data-v-1a93b6c8] {
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.footer-wrapper .link-list[data-v-1a93b6c8] {
+    margin-bottom: 6px;
+}
+.footer-wrapper .link-item[data-v-1a93b6c8] {
+    display: inline-block;
+    margin-left: -4px;
+    padding: 0 4px;
+    line-height: 1;
+    color: #3480fe;
+    border-right: 1px solid #3480fe;
+}
+.footer-wrapper .link-item[data-v-1a93b6c8]:last-child {
+      border-right: none;
+}
+.footer-wrapper .desc[data-v-1a93b6c8] {
+    margin-bottom: 8px;
+    line-height: 1;
+}
+
+.list-wrapper-title[data-v-59bc4ae2] {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #dde4eb;
+}
+.list-wrapper-title .list-wrapper-border[data-v-59bc4ae2] {
+    color: #a3c5fd;
+}
+.list-wrapper-title .list-wrapper-name[data-v-59bc4ae2] {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #313238;
+}
+
+.advanced-search {
+  position: relative;
+  float: right;
+  margin: 20px;
+}
+.advanced-search .search-input {
+    width: 360px;
+    height: 32px;
+    padding: 0 32px 0 10px;
+    font-size: 14px;
+    color: #666666;
+    border: 1px solid #c3cdd7;
+    line-height: 32px;
+    outline: none;
+}
+.advanced-search .search-input:hover {
+      border-color: #c0c4cc;
+}
+.advanced-search .search-input:focus {
+      border-color: #3c96ff;
+}
+.advanced-search .search-input.placeholder {
+    color: #c3cdd7;
+}
+.search-content {
+  margin: 30px;
+  color: #313238;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.search-content:hover {
+    color: #3c96ff;
+}
+.search-content .advanced-shape {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #cccccc;
+}
+.search-content .advanced-shape:hover {
+      color: #3c96ff;
+}
+.common-icon-search {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  color: #63656e;
+}
+
+/* mixin for multiline */
+.task-container {
+  position: relative;
+  height: 340px;
+}
+.task-container .task-wrapper {
+    float: left;
+    padding: 20px;
+    width: 850px;
+    height: 100%;
+}
+.task-container .task-wrapper .task-list {
+      width: 830px;
+      height: 268px;
+      overflow-y: auto;
+}
+.task-container .task-wrapper .task-list::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+}
+.task-container .task-wrapper .task-list::-webkit-scrollbar-thumb {
+          border-radius: 20px;
+          background: #a5a5a5;
+          -webkit-box-shadow: inset 0 0 6px rgba(204, 204, 204, .3);
+                  box-shadow: inset 0 0 6px rgba(204, 204, 204, .3);
+}
+.task-container .task-wrapper .task-group {
+      margin-bottom: 30px;
+}
+.task-container .task-wrapper .search-list {
+      padding-top: 40px;
+}
+.task-container .task-wrapper .task-name {
+      margin-bottom: 15px;
+      font-size: 12px;
+      font-weight: 400;
+}
+.task-container .task-wrapper .filtrate-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+}
+.task-container .task-search {
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.task-container .task-search .search-input {
+      padding: 0 40px 0 10px;
+      width: 260px;
+      height: 32px;
+      line-height: 32px;
+      font-size: 14px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+      outline: none;
+}
+.task-container .task-search .search-input:hover {
+        border-color: #c0c4cc;
+}
+.task-container .task-search .search-input:focus {
+        border-color: #3c96ff;
+}
+.task-container .task-search .search-input:focus + i {
+          color: #3c96ff;
+}
+.task-container .task-search .common-icon-search {
+      position: absolute;
+      right: 15px;
+      top: 9px;
+      color: #dddddd;
+}
+.task-container .flow-types {
+    margin-left: 0px;
+}
+.task-container .bk-selector {
+    width: 260px;
+}
+.task-container .task-item {
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 260px;
+    cursor: pointer;
+    background: #dcdee5;
+    border-radius: 4px;
+}
+.task-container .task-item:nth-child(3n + 1) {
+      margin-left: 0;
+}
+.task-container .task-item .task-item-icon {
+      float: left;
+      width: 56px;
+      height: 56px;
+      line-height: 56px;
+      background: #c4c6cc;
+      text-align: center;
+      color: #ffffff;
+      font-size: 28px;
+      overflow: hidden;
+      border-radius: 4px 0 0 4px;
+}
+.task-container .task-item .task-item-name {
+      color: #313238;
+      word-break: break-all;
+      border-radius: 0 4px 4px 0;
+      overflow: hidden;
+      position: relative;
+      line-height: 14px;
+      max-height: 28px;
+      text-align: justify;
+      margin-right: -1em;
+      padding-right: 1em;
+}
+.task-container .task-item .task-item-name:before {
+        content: '...';
+        position: absolute;
+        right: 3px;
+        bottom: 0px;
+}
+.task-container .task-item .task-item-name:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 1em;
+        height: 1em;
+        margin-top: 0.2em;
+        background: white;
+}
+.task-container .task-item .task-item-name:after {
+        background: #dcdee5;
+}
+.task-container .task-item:hover {
+      color: #3c96ff;
+}
+.task-container .task-item-name-box {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 56px;
+    padding: 0 15px;
+    height: 56px;
+    width: 205px;
+    font-size: 12px;
+    border-radius: 0 4px 4px 0;
+}
+.task-container .task-item-selected .task-item-icon {
+    background: #666a7c;
+    color: #ffffff;
+}
+.task-container .task-item-selected .task-item-name, .task-container .task-item-selected .task-item-name-box {
+    background: #838799;
+    color: #ffffff;
+}
+.task-container .task-item-selected .task-item-name:after, .task-container .task-item-selected .task-item-name-box:after {
+      background: #838799;
+}
+.task-container .task-footer {
+    position: absolute;
+    right: 210px;
+    bottom: -40px;
+}
+.task-container .task-footer .error-info {
+      margin-right: 20px;
+      font-size: 12px;
+      color: #ea3636;
+}
+
+
+/*# sourceMappingURL=5.css.map*/
