@@ -23,7 +23,7 @@ from blueapps.core.celery import celery_app
 
 # app 基本信息默认设置，本地开发可以修改这里，预发布环境和正式环境会从环境变量自动获取
 RUN_VER = 'open'
-APP_ID = 'bk_sops'
+APP_ID = 'bk-sops-ce'
 APP_TOKEN = '839cd405-88ca-4aa5-8d01-56ba98ded70c'
 #839cd405-88ca-4aa5-8d01-56ba98ded70c
 BK_PAAS_HOST = 'http://paas.wxsc.com'
